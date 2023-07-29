@@ -20,7 +20,7 @@ namespace Webapi.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(SaveModel userModel)
+        public IActionResult Register(UserModel userModel)
         {
             try
             {
