@@ -1,0 +1,76 @@
+.body {
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: #1D1470;
+}
+
+.navbar-brand,
+#AdminOpenings,
+#AdminCandidates,
+#logout,
+#home {
+  color: white;
+}
+
+.templateContainer {
+  margin: 5% 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.template {
+  display: flex;
+  height: 180px;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 60px;
+  border-radius: 20px;
+  width: 980px;
+  border: 3px solid black;
+  margin: 10px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.leftContainer {
+  flex: 1;
+}
+
+.rightContainer {
+  flex: 1;
+  text-align: right;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.deleteButton,
+.editButton {
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  border: black;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.available-button {
+  background-color: green;
+  color: white;
+}
+
+.unavailable-button {
+  background-color: red;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
